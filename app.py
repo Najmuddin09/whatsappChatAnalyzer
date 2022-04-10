@@ -127,5 +127,5 @@ try:
             st.dataframe(emoji_df)
 
 except ValueError:
-    st.header('Dear user,')
+    st.header('Dear User,')
     st.header('Select the right time format !!!')
