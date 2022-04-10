@@ -14,7 +14,12 @@ def preprocess(data, time_format):
     # convert message_data type
 
     if time_format == '12hr format':
-        df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y, %I:%M %p - ')
+        try:
+            df['date'] = pd.to_datetime(df['date'], format='%d/%m/%y, %I:%M %p - ')
+        except:
+            df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y, %I:%M %p - ')
+
+
     else:
         df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y, %H:%M - ')
 

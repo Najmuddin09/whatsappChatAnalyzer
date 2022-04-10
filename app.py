@@ -26,9 +26,10 @@ try:
         user_list.sort()
         user_list.insert(0, "Overall")
 
-        selected_user = st.sidebar.selectbox("show analysis wrt", user_list)
+        selected_user = st.selectbox("show analysis wrt", user_list)
 
-        if st.sidebar.button("Show analysis"):
+
+        if st.button("Show analysis"):
             num_messages, words, num_of_media, no_of_links = helper.fetch_stats(selected_user, df)
             st.title("Top Statistics")
             col1, col2, col3, col4 = st.columns(4)
