@@ -12,6 +12,7 @@ Step 1: Get the chat
 -
 The data is taken ,  
   - Whatsapp -> select chat -> ⋮ (on top left) -> more -> Export chat -> without media.
+
 Step 2: Preprocess the data
 -
 - The textfile is converted inot Pandas dataframe by splitting into two lists with 'date' and 'user_message' using regular expression.
