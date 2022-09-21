@@ -33,7 +33,7 @@ Step 3: Analysis
   - When I exported chat from Whatsapp, I selected "without media". In dataframe, we find '<Media Omitted>\n' instead of media.
   - So, counting total number of 'Media Omitted>\n' would give total number of media.
   4 . Links Shared
-  - Added all the urls in a list using 'find_urls()' function of 'URLExtract' class of "urlextract" library. Returned the length of list.
+  - Added all the URLs in a list using 'find_urls()' function of 'URLExtract' class of "urlextract" library. Returned the length of list.
  Now I found Busiest_User  [group level, not on userlevel] 
    -
 
