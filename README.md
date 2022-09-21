@@ -26,7 +26,7 @@ Step 2: Preprocess the data
 -
 - The textfile is converted inot Pandas dataframe by splitting into two lists with 'date' and 'user_message' using regular expression.
 - User is required to select the date_format, since regular expression differs for 12hr or 24hr.
-- 
+
 ![Time_Format](https://user-images.githubusercontent.com/103250661/191391684-364358d0-40ce-4709-8a71-27b662b600aa.JPG)
 
 - 'user_message' column is further splitted into two columns, one with 'user_name' and the other with 'message'.
