@@ -31,15 +31,19 @@ Step 3: Analysis
   1 . Total Messages- 
   - This is achieved by using df.shape() function. It returns number of rows and columns.
   - Applying df.shape(0), returns rows, therby number of messages.
+  
   2 . Total Words
   - Splitted all the messages on the basis of spaces and extended to a list, and returned the length of list.
+  
   3 . Media Shared
   - When I exported chat from Whatsapp, I selected "without media". In dataframe, we find '<Media Omitted>\n' instead of media.
   - So, counting total number of 'Media Omitted>\n' would give total number of media.
+  
   4 . Links Shared
   - Added all the URLs in a list using 'find_urls()' function of 'URLExtract' class of "urlextract" library. Returned the length of list.
- Now I found Busiest_User  [group level, not on userlevel] 
-   -
+ 
+  Now I found Busiest_User  [group level, not on userlevel] 
+   
 
   Made two columns: 
   
