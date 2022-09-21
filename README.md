@@ -2,7 +2,9 @@
 # Whatsapp Chat Analyzer
 
 Discover more about your WhatsApp conversations
-
+This application can be used in two ways:                  
+  - on overall group members 
+  - on individual member
 
 ## Documentation
 
@@ -84,9 +86,7 @@ TIME-BASED ANALYSIS
 - Created a new column 'range' form 'hour' column by adding a range of 1 hour to it. Ex: from 4 to 4-5, 10 to 10-11.
 - Plotted a pivot_table with index = 'day_name', columns = 'range', values = 'messages'. Used 'heatmap()' function of 'Seaborn' library to display the pivot_table.
 
-This application can be used in two ways:                  
-  - on overall group members 
-  - on individual member
+
 
 ## Screenshots
 
