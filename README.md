@@ -1,7 +1,8 @@
 
 # Whatsapp Chat Analyzer
 
-Discover more about your WhatsApp conversations
+Discover more about your WhatsApp conversations.
+
 This application can be used in two ways:                  
   - on overall group members 
   - on individual member
